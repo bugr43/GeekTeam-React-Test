@@ -1,0 +1,64 @@
+.none {
+  display: none;
+}
+
+.app {
+  margin: 0 auto;
+  width: 300px;
+}
+
+.glyphicon-fire, .glyphicon-ok {
+  font-size: 36px;
+  vertical-align: baseline;;
+}
+
+.glyphicon-ok {
+  color: #5CB85C;
+}
+
+.glyphicon-fire {
+  color: #F0AD4E;
+}
+
+.glyphicon-cog {
+  font-size: 30px;
+  line-height: 43px;
+  animation: rotate-cog infitite 1s linear;
+}
+
+.form-control {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.login {
+  position: relative;
+  padding: 0;
+  width: 150px;
+  height: 45px;
+  border-radius: 20px;
+}
+
+.innoBtn::after {
+  content: 'Login →';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 148px;
+  height: 43px;
+  line-height: 43px;
+}
+
+.btn-default:focus {
+  outline: 0;
+  background: #FFF;
+}
+
+@keyframes rotate-cog {
+  from {
+    transform: rotane(0deg);
+  }
+  to {
+    transform: rotane(360deg);
+  }
+}
