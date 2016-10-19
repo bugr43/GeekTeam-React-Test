@@ -2,6 +2,6 @@
 
 Инструкция по запуску:
 - npm i
-- ###### npm run build
+- npm run build
 - node server.js
 - Открыть в браузере страницу [localhost:3001](localhost:3001)
